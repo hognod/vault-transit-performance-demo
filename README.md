@@ -32,7 +32,7 @@ export MYSQL_PORT=3306
 ```
 
 ```bash
-mysql -h $MYSQL_HOST -p $MYSQL_PORT -u root -ppassword
+mysql -h $MYSQL_HOST -p $MYSQL_PORT -u root
 ```
 
 ### MySQL Database create
