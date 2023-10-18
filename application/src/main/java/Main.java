@@ -31,7 +31,7 @@ public class Main {
         
         ArrayList<String> mysql_data;
         
-        System.out.println("1. App -> Vault -> DB\n2. DB -> Vault -> App");
+        System.out.println("1. Encrypt(App -> Vault -> DB)\n2. Decrypt(DB -> Vault -> App)");
         Integer select = scanner.nextInt();
         
         if (select == 1) {
